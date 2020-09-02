@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Grocery Store Assistant</string>
+    <string name="title_welcome">Welcome! \nYour assistant is loading.</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_list">Grocery List</string>
+    <string name="title_activity_store_location">Map</string>
+    <string name="text_nearby_store_button">Nearby Store</string>
+    <string name="text_open_map_button">Open Map</string>
+    <string name="title_history">History</string>
+    <string name="title_add">Add</string>
+    <string name="title_edit">Edit</string>
+
+    <string-array name="department">
+        <item>Deli</item>
+        <item>Dairy</item>
+        <item>Frozen</item>
+        <item>Meat</item>
+        <item>Produce</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

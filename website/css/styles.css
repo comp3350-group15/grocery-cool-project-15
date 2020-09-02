@@ -1,0 +1,238 @@
+/*
+    Font Used : 
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', monospace;
+      
+    Colors:
+    Primary green: #00e676
+    Light green: #66ffa6
+    dark green: #00b248
+    
+    Photo by Priscilla Du Preez on Unsplash (rosemary)
+*/
+
+/*----------------------------------
+    Global Styles 
+------------------------------------*/
+.desc-text {
+  color: rgb(0, 0, 0, 0.50);
+  font-size: 12pt;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+header {
+  padding-bottom: 2rem;
+}
+
+.primary-material-green {
+  color: #00e676;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.material,
+.material:focus,
+.material:active {
+  /* Material Design Looks */
+  /* -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6); */
+
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-cust {
+  width: 200px;
+  height: 45px;
+  /* background-color: #00e676; */
+
+  background-color: black;
+  background-image: linear-gradient(
+    to left,
+    #AAFFA9,
+    #11FFBD
+  );
+
+  font-size: medium;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.btn-cust:hover {
+  background-color: #07dd7d;
+
+  background-color: black;
+  background-image: linear-gradient(
+    to left,
+    rgba(170, 255, 169, 0.95),
+    rgba(17, 255, 188, 0.95)
+  );
+  color: rgba(0, 0, 0, .65);
+}
+
+.btn-cust:active,
+.btn-cust:focus {
+  outline: none !important;
+
+  background-color: black !important;
+  background-image: linear-gradient(
+    to left,
+    rgba(170, 255, 169, 0.95),
+    rgba(17, 255, 188, 0.95)
+  ) !important;
+}
+
+.fa-play-circle:hover {
+  color: black;
+}
+
+/*----------------------------------
+    Nav-Bar Styles 
+    #0d1722
+------------------------------------*/
+#mainNav {
+  padding: 1rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: 600;
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.45);
+  transition: color 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.navbar-brand:hover {
+  transition: color 0.3s ease;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.navbar-nav li {
+  margin-right: 0;
+}
+
+.fa-bars {
+  color: white;
+}
+
+/*----------------------------------
+    Header Styles 
+------------------------------------*/
+header {
+  height: 100vh;
+  /* Photo by Brooke Lark on Unsplash */
+  /* background: linear-gradient(#ffffff8c, #ffffff34),
+    url('../images/side-food-by-brookelark.jpg') no-repeat fixed;
+
+  background-size: cover; */
+}
+
+header h2 {
+  font-size: large;
+}
+
+header h1,
+header h2 {
+  color: black;
+}
+
+header i:hover {
+  color: #006bbd;
+}
+
+.header-intro-button-container {
+  position: absolute;
+  left: 0;
+  bottom: 1vh;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-intro-button-container a {
+  margin: 0 auto;
+}
+
+.vertical-center {
+  min-height: 80%;
+  /* Fallback for browsers do NOT support vh unit */
+
+  display: flex;
+  align-items: center;
+}
+
+.app-home-img {
+  width: 300px;
+  /* margin-right: -8rem; */
+}
+
+.explore-btn:hover {
+  text-decoration: none;
+}
+
+/*----------------------------------
+    About Styles 
+------------------------------------*/
+#about {
+  /* height: 100vh; */
+  background-color: white;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('../images/rosemary.jpg') no-repeat; */
+  background-position: center;
+
+  background-size: 90%;
+}
+
+.features-container p {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+/*----------------------------------
+    Features Styles 
+------------------------------------*/
+#features {
+  background: whitesmoke;
+}
+
+.features-container h5 {
+  font-size: large;
+}
+
+.features-container p,
+.features-container a {
+  font-size: medium;
+}
+
+.about-feature-icon {
+  font-size: 3.5rem;
+  color: #00e676;
+  margin-bottom: 2rem;
+}
+
+.features-container .container {
+  width: 220px;
+  /*orig 250px*/
+  height: 220px;
+  padding: 2rem 0rem;
+}
+
+.dev-img {
+  width: 100px;
+  margin-bottom: 25px;
+  border: solid grey 1px;
+}

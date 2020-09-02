@@ -1,0 +1,47 @@
+How did the project change from your initial (iteration 0) vision or stories, or did it work 
+out as predicted?
+moving from smart assistant to like 
+lots of uncompleted feature
+not integrated as much into the store/app
+faster development time, we pickup the momentum
+
+What did you learn about team or large project development? What will you start doing, keep 
+doing, or stop doing next time?
+Difficult to coordinate with everybody
+Difficult to implement all user stories
+Finding time to meeting up
+Difficult to rely on everybody  
+
+Starting early
+Planning
+Code review
+Test driven development
+
+keep adjust to the situation
+Updating the milestone
+
+leaving everything to last minute
+
+Can you draw any conclusions from what you’ve done?
+We came with a really good idea
+Mobile development is really whole different development routine
+Huge build and config files.
+Compared to other classes is different way of doing things.
+SOLID principle
+technical debts
+restropective
+
+A list of contributors/team members, including a description of any specific special 
+development skills that each team member gained.
+
+Devin
+Google Cloud platform
+
+James
+Testing making sure good code coverage, learn to code review
+
+Ryan
+Big databases, logic stuff, list, version control
+Like I guess idk if it would count as a special "skill" but like managing and working better 
+with android specific features/etc and the way android works vs other development techniques 
+that have used in the past idk how to best describe that

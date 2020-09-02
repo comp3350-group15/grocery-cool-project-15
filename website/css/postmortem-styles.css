@@ -1,0 +1,31 @@
+/*
+    Font Used : 
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', monospace;
+      
+    Colors:
+    Primary green: #00e676
+    Light green: #66ffa6
+    dark green: #00b248
+    
+    Photo by Priscilla Du Preez on Unsplash (rosemary)
+*/
+
+.blockquote p {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.blockquote-footer {
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+body {
+    background-color: whitesmoke;
+    /* background-image: linear-gradient(to right,
+    rgba(167, 255, 120, 0.2), rgba(120, 255, 215, 0.2)); */
+}

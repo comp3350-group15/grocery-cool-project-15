@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.HomeActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_home"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="44dp"
+        style="@style/CustomCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Card contents. -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="380dp"
+            android:layout_height="140dp"
+            >
+
+            <ImageView
+                android:id="@+id/card_view_home_img"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/googlemap_logo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/card_view_home_text"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Google Maps"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorTextPrimary"
+                app:layout_constraintStart_toEndOf="@+id/card_view_home_img"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_findstore"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="44dp"
+        style="@style/CustomCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_view_home">
+
+        <!-- Card contents. -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="380dp"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:id="@+id/card_view_findstore_img"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/store_building_img"
+                app:layout_constraintStart_toEndOf="@+id/card_view_findstore_text"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/card_view_findstore_text"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Nearby Store"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_department"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="44dp"
+        style="@style/CustomCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_view_findstore">
+
+        <!-- Card contents. -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="380dp"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:id="@+id/card_view_department_img"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/grocerystore_card_img"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/card_view_department_text"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Find Department"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorTextPrimary"
+                app:layout_constraintStart_toEndOf="@+id/card_view_department_img"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/suggested_recipes_view"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="44dp"
+        style="@style/CustomCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_view_department">
+
+        <!-- Card contents. -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width = "380dp"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:id="@+id/card_view_suggested_recipes_img"
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/suggested_recipe_image"
+                app:layout_constraintStart_toEndOf="@+id/card_view_suggested_recipes_text"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/card_view_suggested_recipes_text"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="View Suggested Recipes"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textColor="@color/colorTextPrimary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
