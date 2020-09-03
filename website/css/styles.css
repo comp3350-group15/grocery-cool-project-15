@@ -15,7 +15,7 @@
     Global Styles 
 ------------------------------------*/
 .desc-text {
-  color: rgb(0, 0, 0, 0.50);
+  color: rgb(0, 0, 0, 0.5);
   font-size: 12pt;
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
 }
 
@@ -48,18 +48,13 @@ body {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-
 .btn-cust {
   width: 200px;
   height: 45px;
   /* background-color: #00e676; */
 
   background-color: black;
-  background-image: linear-gradient(
-    to left,
-    #AAFFA9,
-    #11FFBD
-  );
+  background-image: linear-gradient(to left, #aaffa9, #11ffbd);
 
   font-size: medium;
   font-weight: 600;
@@ -75,7 +70,7 @@ body {
     rgba(170, 255, 169, 0.95),
     rgba(17, 255, 188, 0.95)
   );
-  color: rgba(0, 0, 0, .65);
+  color: rgba(0, 0, 0, 0.65);
 }
 
 .btn-cust:active,
@@ -135,12 +130,7 @@ body {
     Header Styles 
 ------------------------------------*/
 header {
-  height: 100vh;
-  /* Photo by Brooke Lark on Unsplash */
-  /* background: linear-gradient(#ffffff8c, #ffffff34),
-    url('../images/side-food-by-brookelark.jpg') no-repeat fixed;
-
-  background-size: cover; */
+  height: 100%;
 }
 
 header h2 {
@@ -178,7 +168,7 @@ header i:hover {
 
 .app-home-img {
   width: 300px;
-  /* margin-right: -8rem; */
+  margin: 0 auto;
 }
 
 .explore-btn:hover {
