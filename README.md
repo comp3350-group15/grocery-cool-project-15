@@ -13,7 +13,7 @@ To run: download or clone the repository. Open with Android Studio, this project
 
 [Architecture & Diagram](./ARCHITECTURE.md)
 
-[Website](./website/index.html)
+[Website/Landing Page](https://comp3350-group15.github.io/grocery-cool-project-15/)
 
 ## Milestones
 [Iteration 1](https://code.cs.umanitoba.ca/comp3350-winter2020/grocery-cool-project-15/-/milestones/1)
