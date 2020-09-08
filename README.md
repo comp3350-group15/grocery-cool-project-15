@@ -23,3 +23,15 @@ To run: download or clone the repository. Open with Android Studio, this project
 [Iteration 3](https://code.cs.umanitoba.ca/comp3350-winter2020/grocery-cool-project-15/-/milestones/3)
 
 [Future](https://code.cs.umanitoba.ca/comp3350-winter2020/grocery-cool-project-15/-/milestones/4)
+
+## Contributors
+
+[Ryan Finnigan](https://github.com/finnigar)
+
+[James Harvery](https://github.com/Le-DarkOverlord)
+
+[Devin Efendy](https://github.com/devin-efendy)
+
+Aaron
+
+Hoang Huy Pham
